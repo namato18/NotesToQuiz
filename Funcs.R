@@ -4,6 +4,7 @@ library(stringr)
 library(httr)
 library(jsonlite)
 
+apiKey <- "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"
 
 
 # Set the path to your PDF file
