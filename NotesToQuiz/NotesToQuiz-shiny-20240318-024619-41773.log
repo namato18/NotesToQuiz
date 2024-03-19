@@ -1,0 +1,31 @@
+su: ignoring --preserve-environment, it's mutually exclusive with --login
+Using poppler version 22.02.0
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:shiny’:
+
+    validate
+
+
+Listening on http://127.0.0.1:41773
+Warning: Error in loadfile: Argument pdf must be a path or raw vector with PDF data
+  102: stop
+  101: loadfile
+   99: pdf_text
+   98: GenerateQuiz
+   97: renderUI [/srv/shiny-server/NotesToQuiz/app.R#82]
+   96: func
+   83: renderFunc
+   82: output$response
+    1: runApp
+Warning: Error in loadfile: Argument pdf must be a path or raw vector with PDF data
+  102: stop
+  101: loadfile
+   99: pdf_text
+   98: GenerateQuiz
+   97: renderUI [/srv/shiny-server/NotesToQuiz/app.R#84]
+   96: func
+   83: renderFunc
+   82: output$response
+    1: runApp
